@@ -42,13 +42,6 @@ module.exports = {
           },
         },
       },
-      {
-        test: /\.(png|jpe?g|gif|svg|mp3|wav|ogg|mp4|webm)$/i,
-        type: 'asset/resource',
-        generator: {
-          filename: 'assets/[name][ext]',
-        },
-      },
     ],
   },
   resolve: {
